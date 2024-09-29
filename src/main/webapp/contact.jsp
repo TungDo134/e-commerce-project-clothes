@@ -10,7 +10,7 @@
         crossorigin="anonymous"
         referrerpolicy="no-referrer"
 />
-<link rel="stylesheet" href="./assets/css/header.css" />
+<link rel="stylesheet" href="./assets/css/header.css"/>
 
 <!-- S-Top Nav / Header -->
 <jsp:include page="header.jsp"></jsp:include>
@@ -36,7 +36,7 @@
                     </p>
                 </div>
                 <div class="contact-info">
-                    <i class="fa-solid fa-phone icon-contact"></i>
+                    <i class="fa-solid fa-phone icon-contact "></i>
                     <a href=""> Call Us +1.877.482.2430 </a>
                 </div>
             </div>
@@ -61,7 +61,7 @@
                 <div class="contact-info">
                     <i
                             class="fa-solid fa-circle icon-contact"
-                            style="color: #e27f22"
+                            style="color: #e27f22; font-size: 10px;"
                     ></i>
                     <a href=""> Message Us </a>
                 </div>
@@ -75,7 +75,7 @@
                     </p>
                 </div>
                 <div class="contact-info">
-                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-whatsapp icon-contact"></i>
                     <a href=""> WhatsApp Us </a>
                 </div>
             </div>
@@ -93,7 +93,7 @@
 
 <!-- Start Footer -->
 <jsp:include page="footer.jsp"></jsp:include>
-<!-- Close Footer  -->
+<!-- Close Footer -->
 
 <%--<!-- Start Section -->--%>
 <%--<section class="container py-5">--%>
