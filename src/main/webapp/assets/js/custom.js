@@ -60,17 +60,19 @@ function chooseSize(x) {
     }
 }
 
-//
+function toggleFAQ(para) {
+    const answerValue = para.querySelector(".answer");
+    const x = para.querySelector(".icon-down");
+    console.log(answerValue);
 
-
-//
-function change_icon(x) {
-    console.log(x);
-
-    if (x.style.transform === "rotateX(0deg)") {
+    if (x.style.transform == "rotateX(0deg)") {
         x.style.transform = "rotateX(180deg)";
+        answerValue.style.maxHeight = "77px";
+        answerValue.style.opacity = "1";
     } else {
         x.style.transform = "rotateX(0deg)";
+        answerValue.style.maxHeight = "0px";
+        answerValue.style.opacity = "0";
     }
 }
 
