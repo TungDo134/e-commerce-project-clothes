@@ -20,6 +20,7 @@ public class Sign_In_Control extends HttpServlet {
 
         if (account != null) {
             HttpSession session = request.getSession();
+
             session.setAttribute("acc", account);
             response.sendRedirect("index.jsp");
         } else {

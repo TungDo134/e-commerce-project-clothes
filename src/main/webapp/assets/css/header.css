@@ -30,9 +30,10 @@ a {
     }
 }
 
-.mt-200{
+.mt-200 {
     margin-top: 200px;
 }
+
 /* HEADER */
 header {
     /*overflow: hidden;*/
@@ -891,6 +892,7 @@ span.fundin-panel {
     margin-top: 2rem;
     line-height: 1.4;
 }
+
 .contact-info > a {
     position: relative;
     color: #000;
@@ -905,6 +907,7 @@ span.fundin-panel {
     position: absolute;
     width: 100%;
 }
+
 .icon-contact {
     margin: 5px;
     font-size: 12px;
@@ -912,6 +915,8 @@ span.fundin-panel {
 
 .faq {
     margin: auto;
+    padding-bottom: 36px;
+
 }
 
 .faq > .head-title-faq {
@@ -925,7 +930,7 @@ span.fundin-panel {
 .faq .question-content {
     position: relative;
     /*padding: 1rem 0;*/
-    font-size: 18px;
+
 
 }
 
@@ -955,7 +960,7 @@ span.fundin-panel {
 }
 
 .faq-content .ques-as::after {
-    transition: width .8s cubic-bezier(.5,0,0,1) 0s;
+    transition: width .8s cubic-bezier(.5, 0, 0, 1) 0s;
     background: #000;
     bottom: 0;
     content: "";
@@ -988,14 +993,77 @@ span.fundin-panel {
     color: #464646;
 }
 
-/*.faq-content .ques-as::after {*/
-/*    content: "";*/
-/*    display: block;*/
-/*    height: 1px;*/
-/*    background-color: #ccc;*/
-/*}*/
-
 /* Contact Us */
+
+/* About Us */
+
+.content-about .content-top {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #F7F0EA;
+}
+
+.content-about .pic-content {
+    flex: 1 1;
+    min-height: 100%;
+}
+
+.content-about .content-top .content-des {
+    flex: 1 1;
+    margin: auto;
+
+}
+
+.content-about .content-top .content-des .content {
+    max-width: 624px;
+    margin: auto;
+}
+
+.content .description {
+    font-size: 1rem;
+    line-height: 140%;
+}
+
+/* About Us */
+.content-about {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-about .content-top {
+    display: flex;
+    background-color: #f7f0ea;
+}
+
+.content-about .content-top .pic-content {
+    flex: 1 1;
+    height: auto;
+}
+
+.content-about .content-top .pic-content img {
+    height: 100%;
+}
+
+.content-about .content-top .content-des {
+    flex: 1 1;
+    height: auto;
+    margin: auto;
+}
+
+.content-about .content-top .content {
+    max-width: 624px;
+    margin: auto;
+}
+.content .description {
+    line-height: 1.4;
+}
+
+.content .description > p {
+    text-align: justify;
+    font-size: 1.2rem;
+}
+/* About Us */
 
 
 /* Footer */
@@ -1013,6 +1081,7 @@ span.fundin-panel {
     text-decoration: none;
     list-style-type: none;
 }
+
 .footer-content > ul > li {
     padding: 10px 20px;
 }
@@ -1021,6 +1090,7 @@ span.fundin-panel {
     color: #fff !important;
     font-size: 16px;
 }
+
 .footer-mid-area {
     background-color: #000;
     padding: 30px 0px;
@@ -1099,3 +1169,4 @@ span.fundin-panel {
 }
 
 /* Footer */
+

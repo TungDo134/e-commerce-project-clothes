@@ -210,7 +210,7 @@
                 <!-- Menu -->
                 <nav>
                     <ul class="menu-main-menu">
-                        <li class="main-menu-items"><a href="#">HOME</a></li>
+                        <li class="main-menu-items"><a href="home-control">HOME</a></li>
                         <li class="main-menu-items">
                             <button
                                     type="button"
@@ -246,7 +246,7 @@
                             >
                                 <i class="fa-solid fa-chevron-down"></i>
                             </button>
-                            <a href="">SHOP</a>
+                            <a href="product">SHOP</a>
                             <ul class="sub-menu">
                                 <li><a class="sub-menu-item"
                                        href="product-load-byCID?cid=1">SOMI</a>
@@ -268,8 +268,8 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="main-menu-items"><a href="">ABOUT US</a></li>
-                        <li class="main-menu-items"><a href="">CONTACT</a></li>
+                        <li class="main-menu-items"><a href="about.jsp">ABOUT US</a></li>
+                        <li class="main-menu-items"><a href="contact.jsp">CONTACT</a></li>
                     </ul>
                 </nav>
                 <!-- Menu -->
